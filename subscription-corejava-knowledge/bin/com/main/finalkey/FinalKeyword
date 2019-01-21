@@ -1,0 +1,9 @@
+Final keyword in Java :
+
+1) final class : cant be extended.
+1a) final class : doesnt means that its object are immutable.
+2) final method : cant be overridden.
+3) final variable/fields/local var : cant be reassigned and the moment they declared its need to be initialized.
+4) final static var : if value of var shouldn't vary object to object then its should be "final static" type.
+5) final constructor :We can declare a constructor as final but then its no longer will work as Constructor rather will be treated 
+	as ordinary method. A constructor can only be public, private or protected.
