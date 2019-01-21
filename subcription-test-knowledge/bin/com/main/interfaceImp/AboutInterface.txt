@@ -1,0 +1,28 @@
+1) Interface are used to achieve Abstraction, Polymorphism and Multiple Inheritance.
+
+2) In an interface we can use
+	constant variable
+	static methods
+	default methods - are optional and can be implemented at interface level.
+	abstract methods
+	
+3) Interface can't be instantiate.
+4) It can be empty i.e without any method or variable.
+5) Final word can't used with interface definition.
+6) Access modifiers can be used are : public or default. abstract will be added by compiler.
+7) Methods present in it can't be private, protected or final.
+8) Interface variables are public, static and final. We can't modify its visibility.
+9) Abstract class implementing interface will inherit its all (abstract + default) methods. 
+
+Ques) What we can achieve using Interface ?
+Ans) Abstraction, Polymorphism, Multiple Inheritance, behavioral functionality.
+
+	a) Behavioral Functionality :
+	   Interface can be used to add certain special behavior to unrelated classes. Such interfaces are Cloneable, Comparable, Comparator etc.
+	   
+	b) Java only support singular inheritance, but by using interface we can achieve multiple inheritance.
+	
+	c) Polymorphism :- Its ability of an object to take different forms during run time.
+	
+ 
+
